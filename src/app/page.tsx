@@ -4,7 +4,7 @@ import React from "react";
 
 export default function LandingPage() {
   return (
-    <main className="flex flex-col h-screen items-center justify-center gap-5 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-violet-300 via-pink-200 to-sky-200">
+    <main className="flex flex-col h-screen items-center justify-center gap-5">
       <div className="flex items-center font-extrabold">
         <span className="font-extrabold sm:text-3xl md:text-4xl lg:text-6xl">
           IntelliCompanion
@@ -18,7 +18,7 @@ export default function LandingPage() {
       <div>
         <Button
           asChild
-          className="font-semibold hover:bg-transparent hover:text-black hover:outline">
+          className="font-semibold">
           <Link href="/sign-in">Sign In</Link>
         </Button>
       </div>

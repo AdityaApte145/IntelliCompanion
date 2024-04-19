@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function SignInPage() {
     return (
-        <div className="flex flex-col h-screen items-center justify-center bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-violet-300 via-pink-200 to-sky-200">
+        <div className="flex flex-col h-screen items-center justify-center">
             <SignIn appearance={{variables: {colorPrimary: "black"}}} />
         </div>
     );
