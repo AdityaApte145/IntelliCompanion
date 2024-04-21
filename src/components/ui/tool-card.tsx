@@ -40,8 +40,8 @@ export default function ToolCard() {
                         <div className="font-semibold">
                             {tool.label}
                         </div>
-                        <ArrowRight className="w-7 h-7 align-" />
                     </div>
+                    <ArrowRight className="w-8 h-8 mt-6" />
                 </Card>
             ))}
         </div>

@@ -4,7 +4,7 @@ const HomeLayout = ({
     children: React.ReactNode;
 }) => {
     return (
-        <div>
+        <div className="md:h-screen">
             {children}
         </div>
     );
