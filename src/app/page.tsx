@@ -21,7 +21,7 @@ export default function LandingPage() {
       </div>
       <div>
         <p className="font-medium sm:text-3xl md:text-2xl lg:text-3xl">
-          This is an Intelligent Virtual Assistant
+          A Virtual Assistant with the power of AI, based on Mistral 7B
         </p>
       </div>
       <div>
