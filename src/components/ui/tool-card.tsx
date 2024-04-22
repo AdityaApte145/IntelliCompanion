@@ -1,6 +1,8 @@
+"use client"
 import { Card } from "@/components/ui/card"
 import { cn } from "@/lib/utils"
 import { ArrowRight, MessageSquare, File, Code } from "lucide-react"
+import { useRouter } from "next/navigation"
 
 const tools = [
     {
@@ -17,20 +19,15 @@ const tools = [
         bgColor: "bg-emerald-500/10",
         href: "/chat-pdf"
     },
-    {
-        label: "Code Generation",
-        icon: Code,
-        color: "text-orange-500",
-        bgColor: "bg-orange-500/10",
-        href: "/code-gen"
-    },
 ]
 
 export default function ToolCard() {
+    const router = useRouter();
     return (
         <div className="md:p-10 space-y-7">
             {tools.map((tool) => (
                 <Card
+                    onClick={() => router.push(tool.href)}
                     key={tool.href}
                     className="container w-1/5 h-20 pl-4 border flex items—center justify-between hover:shadow-md content-center transition cursor-pointer">
                     <div className="flex items-center gap-x-4">

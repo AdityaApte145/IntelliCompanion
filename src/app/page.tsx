@@ -6,7 +6,13 @@ import logo from "../../public/logo.svg";
 
 export default function LandingPage() {
   return (
-    <main className="flex flex-col h-screen items-center justify-center gap-5 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-emerald-100 via-emerald-200 to-emerald-100">
+    <main className="flex 
+    flex-col 
+    h-screen 
+    items-center 
+    justify-center 
+    gap-5 
+    bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-emerald-100 via-emerald-200 to-emerald-100">
       <div className="flex items-center font-extrabold">
         <Image src={logo} alt="IntelliCompanion Logo" width={128} height={128}></Image>
         <span className="font-extrabold sm:text-3xl md:text-4xl lg:text-6xl">
