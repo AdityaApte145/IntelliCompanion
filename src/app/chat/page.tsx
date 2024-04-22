@@ -10,7 +10,6 @@ import logo from '../../../public/logo.svg';
 import { UserAvatar } from '@/components/ui/user-avatar';
 import { cn } from '@/lib/utils';
 import { AIAvatar } from '@/components/ui/ai-avatar';
-import { currentUser } from '@clerk/nextjs/server';
 
 export default function Chat() {
     const { messages, input, handleInputChange, handleSubmit } = useChat();
